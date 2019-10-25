@@ -2092,7 +2092,7 @@
 									},
 									"font": "Arial;13;1",
 									"left": 1336,
-									"top": 501,
+									"top": 493,
 									"width": 116.578125,
 									"height": 13,
 									"text": "搜索统计(search)"
@@ -2118,7 +2118,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 1341,
-											"top": 524,
+											"top": 516,
 											"width": 106.578125,
 											"height": 13
 										},
@@ -2133,7 +2133,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 1341,
-											"top": 539,
+											"top": 531,
 											"width": 106.578125,
 											"height": 13
 										},
@@ -2148,23 +2148,38 @@
 											},
 											"font": "Arial;13;0",
 											"left": 1341,
-											"top": 554,
+											"top": 546,
+											"width": 106.578125,
+											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAFuAdjMeVwCxQY=",
+											"_parent": {
+												"$ref": "AAAAAAFtUkpKKHbRmNk="
+											},
+											"model": {
+												"$ref": "AAAAAAFuAdjMEVv/x8c="
+											},
+											"font": "Arial;13;0",
+											"left": 1341,
+											"top": 561,
 											"width": 106.578125,
 											"height": 13
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 1336,
-									"top": 519,
+									"top": 511,
 									"width": 116.578125,
-									"height": 53
+									"height": 68
 								}
 							],
 							"font": "Arial;13;0",
 							"left": 1336,
-							"top": 496,
+							"top": 488,
 							"width": 116.578125,
-							"height": 76,
+							"height": 91,
 							"nameLabel": {
 								"$ref": "AAAAAAFtUkpKKHbQMd4="
 							},
@@ -3477,6 +3492,15 @@
 								"$ref": "AAAAAAFtUkpKJXbNZfo="
 							},
 							"name": "sum",
+							"length": 0
+						},
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAFuAdjMEVv/x8c=",
+							"_parent": {
+								"$ref": "AAAAAAFtUkpKJXbNZfo="
+							},
+							"name": "time",
 							"length": 0
 						}
 					]
