@@ -719,20 +719,35 @@
 											"top": 410,
 											"width": 97.18994140625,
 											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAFuGnvi5BqbhI0=",
+											"_parent": {
+												"$ref": "AAAAAAFtUAvjQnVVRz8="
+											},
+											"model": {
+												"$ref": "AAAAAAFuGnvisRqY7/w="
+											},
+											"font": "Arial;13;0",
+											"left": 565,
+											"top": 425,
+											"width": 97.18994140625,
+											"height": 13
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 560,
 									"top": 375,
 									"width": 107.18994140625,
-									"height": 53
+									"height": 68
 								}
 							],
 							"font": "Arial;13;0",
 							"left": 560,
 							"top": 352,
 							"width": 107.18994140625,
-							"height": 81,
+							"height": 91,
 							"nameLabel": {
 								"$ref": "AAAAAAFtUAvjQnVUUNo="
 							},
@@ -758,7 +773,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 592,
-									"top": 469,
+									"top": 474,
 									"width": 26,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -777,7 +792,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 606,
-									"top": 451,
+									"top": 461,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -811,7 +826,7 @@
 								"$ref": "AAAAAAFtUAvjQnVTvOc="
 							},
 							"lineStyle": 2,
-							"points": "591:432;591:520",
+							"points": "591:442;591:520",
 							"nameLabel": {
 								"$ref": "AAAAAAFtUAxk03Vl2kk="
 							},
@@ -840,7 +855,7 @@
 									},
 									"font": "Arial;13;1",
 									"left": 320,
-									"top": 357,
+									"top": 349,
 									"width": 105,
 									"height": 13,
 									"text": "新闻板块(plate)"
@@ -866,7 +881,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 325,
-											"top": 380,
+											"top": 372,
 											"width": 95,
 											"height": 13
 										},
@@ -881,23 +896,38 @@
 											},
 											"font": "Arial;13;0",
 											"left": 325,
-											"top": 395,
+											"top": 387,
+											"width": 95,
+											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAFuGnuxTxqURFE=",
+											"_parent": {
+												"$ref": "AAAAAAFtUA4G6nV5YUY="
+											},
+											"model": {
+												"$ref": "AAAAAAFuGnuxAhqRUh0="
+											},
+											"font": "Arial;13;0",
+											"left": 325,
+											"top": 402,
 											"width": 95,
 											"height": 13
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 320,
-									"top": 375,
+									"top": 367,
 									"width": 105,
-									"height": 38
+									"height": 53
 								}
 							],
 							"font": "Arial;13;0",
 							"left": 320,
-							"top": 352,
+							"top": 344,
 							"width": 105,
-							"height": 73,
+							"height": 76,
 							"nameLabel": {
 								"$ref": "AAAAAAFtUA4G6nV475c="
 							},
@@ -2318,7 +2348,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 391,
-									"top": 580,
+									"top": 577,
 									"width": 26,
 									"height": 13,
 									"alpha": 1.7506496122396897,
@@ -2337,7 +2367,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 408,
-									"top": 443,
+									"top": 438,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -2371,7 +2401,7 @@
 								"$ref": "AAAAAAFtUA4G6nV3xDs="
 							},
 							"lineStyle": 2,
-							"points": "393:424;393:752",
+							"points": "393:419;393:752",
 							"nameLabel": {
 								"$ref": "AAAAAAFtUlCX73byzTw="
 							},
@@ -3060,6 +3090,15 @@
 							},
 							"name": "name",
 							"length": 0
+						},
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAFuGnvisRqY7/w=",
+							"_parent": {
+								"$ref": "AAAAAAFtUAvjQnVRcGs="
+							},
+							"name": "isdelete",
+							"length": 0
 						}
 					]
 				},
@@ -3147,6 +3186,15 @@
 								"$ref": "AAAAAAFtUA4G6nV1KqY="
 							},
 							"name": "name",
+							"length": 0
+						},
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAFuGnuxAhqRUh0=",
+							"_parent": {
+								"$ref": "AAAAAAFtUA4G6nV1KqY="
+							},
+							"name": "isdelete",
 							"length": 0
 						}
 					]
