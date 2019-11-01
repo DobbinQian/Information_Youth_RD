@@ -11,6 +11,7 @@
 | 7    | 公共     | /user/getActionList   | 动态的 image 参数没有，是否需要发布人 ID                                    | 2019-10-31 | ---      | ---      |
 | 8    | 注册     | /register             | 是否需要注册图片验证码                                                      | 2019-10-31 | ---      | ---      |
 | 9    | 新闻     | /getNewsByClass       | 获取新闻的图片地址链接                                                      | 2019-10-31 | ---      | ---      |
+| 10   | 综合     | /getNewsByClass       | classID                                                                     | 2019-11-01 | ---      | ---      |
 
 # 已经完成前端接入的接口
 
@@ -18,3 +19,5 @@
 - /getPlateAndClass
 - /user/getFollowPlate
 - /user/getActionList
+- /getNewsByClass
+- /getList
