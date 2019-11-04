@@ -12,6 +12,8 @@
 | 8    | 注册     | /register             | 是否需要注册图片验证码                                                      | 2019-10-31 | ---      | ---      |
 | 9    | 新闻     | /getNewsByClass       | 获取新闻的图片地址链接                                                      | 2019-10-31 | ---      | ---      |
 | 10   | 综合     | /getNewsByClass       | classID                                                                     | 2019-11-01 | ---      | ---      |
+| 11   | 详情     | /getCommentsList      | 文章 ID 是否需,判断被提问                                                   | 2019-11-04 | ---      | ---      |
+| 12   | 详情     | /getCommentsList 等   | date 的精确提问                                                             | 2019-11-04 | ---      | ---      |
 
 # 已经完成前端接入的接口
 
@@ -21,3 +23,5 @@
 - /user/getActionList
 - /getNewsByClass
 - /getList
+- /getRecommendList
+- /getCommentsList
