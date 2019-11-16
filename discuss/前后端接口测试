@@ -1,0 +1,14 @@
+第一次、
+/getTopLineHome
+/getNewsByClass
+第二次、
+/register
+/login
+第三次、
+/getPlateAndClass
+/user/editFollowPlate
+/user/getFollowPlate
+第四次、
+/updatePwd
+/user/getActionList
+/user/editUserData
